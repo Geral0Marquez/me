@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import { MailchimpForm } from "./MailchimpForm";
 import Whasap from "@iconscout/react-unicons/icons/uil-whatsapp";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";

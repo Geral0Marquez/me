@@ -26,7 +26,7 @@ export const Skills = ({ translate }) => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
-  const [valueEnd, setValueEnd] = React.useState(66);
+  const [valueEnd] = React.useState(66);
 
 
   const properties = {
@@ -187,7 +187,7 @@ export const Skills = ({ translate }) => {
             </div>
 
           </div >
-          <img className="background-image-left" src={colorSharp} alt="Image" />
+          <img className="background-image-left" src={colorSharp} alt="" />
 
         </section >) : (
         <section className="skill" id="skills"
@@ -315,7 +315,7 @@ export const Skills = ({ translate }) => {
             </div>
 
           </div >
-          <img className="background-image-left" src={colorSharp} alt="Image" />
+          <img className="background-image-left" src={colorSharp} alt="" />
     
         </section >)}
     </div>

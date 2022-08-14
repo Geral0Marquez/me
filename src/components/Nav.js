@@ -1,8 +1,5 @@
 import Toggle from "../components/Toggle";
 
-
-
-
 export const Nav = ({ setTranslate, translate }) => {
 
   function handleClick(e) {
@@ -10,8 +7,7 @@ export const Nav = ({ setTranslate, translate }) => {
     translate === "es" ? setTranslate("en") : setTranslate("es");
   }
 
-{
-
+  
   return (
     <div className="nav-fix">
      <div className="nav-f"> 
@@ -32,4 +28,4 @@ export const Nav = ({ setTranslate, translate }) => {
   );
 }
 
-}
+

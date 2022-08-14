@@ -52,7 +52,7 @@ export const Portfolio = ({ translate }) => {
                             <Row>
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg1} />
+                                  <img src={projImg1} alt="" />
                                   <div className="proj-txtx">
                                     <h4 >E-comerce</h4>
                                     <span>Online site for buying & selling products</span>
@@ -67,7 +67,7 @@ export const Portfolio = ({ translate }) => {
                               </Col>
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg2} />
+                                  <img src={projImg2} alt="" />
                                   <div className="proj-txtx">
                                     <h4 >Rick & Morty</h4>
                                     <span>Look for all the Rick & Morty's worlds by their ID</span>
@@ -82,7 +82,7 @@ export const Portfolio = ({ translate }) => {
                               </Col>
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg3} />
+                                  <img src={projImg3} alt="" />
                                   <div className="proj-txtx">
                                     <h4 >Weather App</h4>
                                     <span>Activate your location to know how the weather is anywhere</span>
@@ -97,7 +97,7 @@ export const Portfolio = ({ translate }) => {
                               </Col>
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg4} />
+                                  <img src={projImg4} alt="" />
                                   <div className="proj-txtx">
                                     <h4 >Pokedex</h4>
                                     <span>See your favorite pokemon information</span>
@@ -170,7 +170,7 @@ export const Portfolio = ({ translate }) => {
               </Col>
             </Row>
           </Container>
-          <img className="background-image-right" src={colorSharp2}></img>
+          <img className="background-image-right" src={colorSharp2} alt=""></img>
         </section>) : (
         <section className="project" id="project">
           <Container>
@@ -199,7 +199,7 @@ export const Portfolio = ({ translate }) => {
 
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg1} />
+                                  <img src={projImg1}  alt=""/>
                                   <div className="proj-txtx">
                                     <h4 >E-comerce</h4>
                                     <span>Sitio en línea para comprar y vender productos</span>
@@ -214,7 +214,7 @@ export const Portfolio = ({ translate }) => {
                               </Col>
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg2} />
+                                  <img src={projImg2} alt="" />
                                   <div className="proj-txtx">
                                     <h4 >Rick & Morty</h4>
                                     <span>Busca todos los mundos de Rick & Morty por su ID</span>
@@ -229,7 +229,7 @@ export const Portfolio = ({ translate }) => {
                               </Col>
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg3} />
+                                  <img src={projImg3} alt="" />
                                   <div className="proj-txtx">
                                     <h4 >Weather App</h4>
                                     <span> Activa tu ubicación para saber cómo está el clima en cualquier lugar</span>
@@ -244,7 +244,7 @@ export const Portfolio = ({ translate }) => {
                               </Col>
                               <Col size={12} md={6}>
                                 <div className="proj-imgbx">
-                                  <img src={projImg4} />
+                                  <img src={projImg4} alt="" />
                                   <div className="proj-txtx">
                                     <h4 >Pokedex</h4>
                                     <span>Consulta la información de tu Pokémon favorito</span>
@@ -317,7 +317,7 @@ export const Portfolio = ({ translate }) => {
               </Col>
             </Row>
           </Container>
-          <img className="background-image-right" src={colorSharp2}></img>
+          <img className="background-image-right" src={colorSharp2} alt=""></img>
         </section>
       )}
 
